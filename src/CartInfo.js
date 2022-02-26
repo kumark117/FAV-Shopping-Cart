@@ -9,6 +9,7 @@ import { CartButtons } from "./CartButtons";
 
 export const CartInfo = ({ cart, increaseQ, decreaseQ, removeFromCart }) => (
   <>
+    cart.map Next!! I'm excited!!
     {cart.map((item, i) => (
       <DetailColumn key={item.name}>
         <P>
